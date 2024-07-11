@@ -168,7 +168,7 @@ const Admin = ({ toggleSidebar, isSidebarOpen }) => {
     };
 
     try {
-      const response = await fetch(`${apiUrl}/admin/addrestraunt`,  {
+      const response = await fetch(`${apiUrl}/admin/addrestraunt`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
